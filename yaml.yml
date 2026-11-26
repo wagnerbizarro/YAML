@@ -1,0 +1,12 @@
+strategy:
+  matrix:
+    compiler: [gcc, clang]
+steps:
+- uses: actions/checkout@v2
+- name: Run Tests
+  env:
+    CC: ${{ matrix.compiler }}
+  run: |
+    ./configure
+    make
+    make test
