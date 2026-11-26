@@ -15,6 +15,6 @@ What It Is:
   YAML is a human-friendly data serialization  
   language for all programming languages.  
 
-This is a link to [YAML](https:/https://yaml.org/).
+This is a link to [YAML](https://yaml.org/).
 
 
